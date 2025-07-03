@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Image Gallery with Filtering</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <section class="gallery-section">
+    <h1>Photo Gallery with Tags</h1>
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="nature">Nature</button>
+      <button class="filter-btn" data-filter="animals">Animals</button>
+      <button class="filter-btn" data-filter="city">City</button>
+    </div>
+    <div class="gallery">
+      <div class="gallery-item" data-category="nature">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Nature 1" />
+      </div>
+      <div class="gallery-item" data-category="city">
+        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="City 1" />
+      </div>
+      <div class="gallery-item" data-category="animals">
+        <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80" alt="Animal 1" />
+      </div>
+      <div class="gallery-item" data-category="nature">
+        <!-- Updated Nature 2 photo -->
+        <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=400&q=80" alt="Nature 2" />
+      </div>
+      <div class="gallery-item" data-category="city">
+        <img src="https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?auto=format&fit=crop&w=400&q=80" alt="City 2" />
+      </div>
+      <div class="gallery-item" data-category="animals">
+        <!-- Updated Animal 2 photo -->
+        <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=400&q=80" alt="Animal 2" />
+      </div>
+      <!-- Add more images as needed -->
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
